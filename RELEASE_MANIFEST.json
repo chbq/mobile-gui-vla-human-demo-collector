@@ -1,0 +1,331 @@
+{
+  "file_count_excluding_manifest": 34,
+  "files": [
+    {
+      "origin": "release_layer",
+      "path": ".gitignore",
+      "sha256": "21a4a09a45b6fa1bd42cca644b94436fc25c161e017c4ac640847c10591052d3",
+      "size_bytes": 207
+    },
+    {
+      "origin": "release_layer",
+      "path": "PRIVACY.md",
+      "sha256": "7ba5b96b7e3e624f96762f51f9949ef86582653519481f3ab9d3bf24bc94289f",
+      "size_bytes": 2347
+    },
+    {
+      "origin": "release_layer",
+      "path": "README.md",
+      "sha256": "1d8f3a299230bf8a172afaf0998b187bc1abfee89e3ba60cb294b663169ba328",
+      "size_bytes": 5418
+    },
+    {
+      "origin": "release_layer",
+      "path": "RELEASE_NOTES.md",
+      "sha256": "6f2ababd6d973914ee63f737e2ddf28519370139f741a7877ea199f5d8bcbbe6",
+      "size_bytes": 2040
+    },
+    {
+      "origin": "release_layer",
+      "path": "RELEASE_PROVENANCE.md",
+      "sha256": "978d177d3c8e7670cc674c8cd581fb770577288b90d99fdd437d325049478e37",
+      "size_bytes": 2892
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "configs/p0_reference_plans.json",
+      "sha256": "f79efa6a36d61e9dc0d27f76804546d7ca45e1e3b54f2af4089c53b0650bcc18",
+      "size_bytes": 4418,
+      "source_blob_oid": "4789bbb88ef2655d0d367f214975decfdd4e6824",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "configs/p0_reference_plans.json"
+    },
+    {
+      "origin": "release_layer",
+      "path": "platform_tests/test_type_home.py",
+      "sha256": "8d7ffab0ff12406d2d31619c35151ce72078dc74844c17c383c360e08a42743b",
+      "size_bytes": 1810
+    },
+    {
+      "origin": "release_layer",
+      "path": "pyproject.toml",
+      "sha256": "88af193fec257938efbcbdf09ee2bcfa3db4e59f1bd9e3bac85b1f8a8237625b",
+      "size_bytes": 628
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/__init__.py",
+      "sha256": "d95f44388b271e1a7ecb1f815f8bab9b6af41310ad66b48c311b0629c748d283",
+      "size_bytes": 431,
+      "source_blob_oid": "50079bbcfdfc6981dfec86d6a596fa01538f79c8",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/__init__.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/cli.py",
+      "sha256": "2f360a96d26e3787beb1684b0726a73f24c84f7d1e4c33b40728900b4fc09290",
+      "size_bytes": 4366,
+      "source_blob_oid": "01c97cd3c665736c6a0268bca05c56d50ec2b5f5",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/cli.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/collector.py",
+      "sha256": "e5c639c5a415a8f2f0aaa67b74fd0329052943e64ccba396c6395bb8b624fa12",
+      "size_bytes": 50152,
+      "source_blob_oid": "edb5e18d08252aa143ffdf58387089f8a04aba8e",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/collector.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/coordinates.py",
+      "sha256": "306a391a73c60592798daf59c7aca6120416cf94743a0011672d2f547c43effb",
+      "size_bytes": 4354,
+      "source_blob_oid": "aa21ac9d1b08b3052b3156f3978dc2575528bdc4",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/coordinates.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/export.py",
+      "sha256": "7873620cf4618da36f05d0a53602fee1002cea43cf2a01286da6149097f01e63",
+      "size_bytes": 7248,
+      "source_blob_oid": "2e846f72c6c584b029fe9f41289a8eaa27c51263",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/export.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/images.py",
+      "sha256": "01ed6c3406699c0d7ba9979c8ac1a819cd655fee24cd293907c5f941a4d197f2",
+      "size_bytes": 1244,
+      "source_blob_oid": "1cff0c055f67561ac610b3413130861b266e856b",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/images.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/locking.py",
+      "sha256": "a58b385096bdc94928df5001809be3c2140f28090622c77b4c7b56a60cad8bac",
+      "size_bytes": 2383,
+      "source_blob_oid": "afb22ee54d97d514bba4a32f1906540d79fb9217",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/locking.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/pilot.py",
+      "sha256": "c78490f8e7830ca9bb5ca1630baa770ad685306a2c6312f45de8cb7797ed8531",
+      "size_bytes": 11150,
+      "source_blob_oid": "01cc04b593ba3ef1ded15e67bb89b34178486cdb",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/pilot.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/qa.py",
+      "sha256": "b2581024b6ce84ce5c515006b8bb0cd445416438fb3a037cdd6f02cf519dbc1b",
+      "size_bytes": 19346,
+      "source_blob_oid": "ba4d593035232b8a4c6e3955f83198f68defec9a",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/qa.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "src/mobile_gui_vla_data_lab/web.py",
+      "sha256": "3d9847d34810aadbedb60204f588dd4c77b920851d3bac1024c33246c3b70e7c",
+      "size_bytes": 51765,
+      "source_blob_oid": "7fa58ce78953b403d64a00d92ae9abcb8bff9528",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_data_lab/web.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/__init__.py",
+      "sha256": "fade52b81ab38b42c512b6e196cc09c5813067c33fa6ad8bb777653c0ee06ecb",
+      "size_bytes": 1260,
+      "source_blob_oid": "9576781a626b9cc72f79b6a8187454702e16bc36",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/__init__.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/adb.py",
+      "sha256": "e41a5aedaf53b93143ae9f6099552360ff23226a9f983017a07aca05ac2bc458",
+      "size_bytes": 13005,
+      "source_blob_oid": "4c7114813370c661c765d4d8f560ee1831ba37ef",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/adb.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/contracts.py",
+      "sha256": "72b27128e8ff0c72cd60ad01ba96db04f684cff5faf6d8d5cba74af9f0b19ab1",
+      "size_bytes": 5206,
+      "source_blob_oid": "c229cd137adc7c522e71cdd8ac848e55d3d2c25d",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/contracts.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/inventory.py",
+      "sha256": "7d59ed2141b74c7f4702d7b9eac4c641b6788ee4bc745e1b48f33056adf84c53",
+      "size_bytes": 12862,
+      "source_blob_oid": "6fa490f26d495175ebad5f9a7f6f7fa05d047fbe",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/inventory.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/model_boundary.py",
+      "sha256": "a89028c079c76317f1f6c18fa47bfabecf3f2a37be55472340a1e44a910cadb8",
+      "size_bytes": 10342,
+      "source_blob_oid": "afeb94b0738eff04d2b1dbd3ef0dfa5669be9f0a",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/model_boundary.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/paths.py",
+      "sha256": "398d03f936aa6ccfb53f78e08439f1cc48ca15835d4140325703057729793e3f",
+      "size_bytes": 1377,
+      "source_blob_oid": "120dedddb8b5d128149552451b6dd31d9d368b2d",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/paths.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/screenrecord.py",
+      "sha256": "9ef4af682ab347470b6e6e3d63a405050da483192f813af29e39412444473004",
+      "size_bytes": 9522,
+      "source_blob_oid": "1321dd9e32d533dd734f6f5f82047f8756fa5195",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/screenrecord.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/smoke.py",
+      "sha256": "3de6985c41da6ab6ee9fca0cb952de085cc72138bf55e91482fe1290c79d69c5",
+      "size_bytes": 3895,
+      "source_blob_oid": "5dcc6afaae7c602a7906cd580d50a3989373cb53",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/smoke.py"
+    },
+    {
+      "origin": "platform_git_export",
+      "path": "src/mobile_gui_vla_platform/trajectory.py",
+      "sha256": "9f76cd3a073d6134b24db8d9d25ca35caaf6af9488603eb19a12a602738fbf23",
+      "size_bytes": 13102,
+      "source_blob_oid": "6b1041ca4c613f1133d0c415daa752997fb6f25e",
+      "source_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+      "source_mode": "100644",
+      "source_path": "src/mobile_gui_vla_platform/trajectory.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "tests/helpers.py",
+      "sha256": "eed05a3b5b07b50be60aa67016ba4403b8437c6ecdd7c473541abb4e48ae0910",
+      "size_bytes": 3051,
+      "source_blob_oid": "228b318bcde77cd27caf9248f183cf8a5550c1a5",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "tests/helpers.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "tests/test_collector.py",
+      "sha256": "08844a456b32849f9c901319116294abc829681f0a87f2d11438d5f78b96c82a",
+      "size_bytes": 16790,
+      "source_blob_oid": "8ae254cef842ee8f7f49e4c71daf1d52ac2fb163",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "tests/test_collector.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "tests/test_coordinates.py",
+      "sha256": "d292b8ef909d6bc2f8685b7ed1f5f5896b57b4f71c7d2664ab64e0fe4fbebe18",
+      "size_bytes": 2737,
+      "source_blob_oid": "4d85070e9f00495d4f15d25df64cc2bc93e5b0de",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "tests/test_coordinates.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "tests/test_images.py",
+      "sha256": "2dae174a038657ad8ecf3764fe131c4aa13583b18623a35da9c1b9b763ea3f5e",
+      "size_bytes": 1166,
+      "source_blob_oid": "18faf9850fc9bc27dc961fc0ed3b1d4088acd0dc",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "tests/test_images.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "tests/test_locking.py",
+      "sha256": "cd2beab342466c62966053b3a2583a18da5452bb18e4b5ae36e5a9e6d747cd69",
+      "size_bytes": 890,
+      "source_blob_oid": "d0fda536e7e89c2caa7e9d34385b60a23c7ddac2",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "tests/test_locking.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "tests/test_qa_export.py",
+      "sha256": "e0db587e49e1006930c6c6169a9f8732154c3054dd58e6717abf30f057482924",
+      "size_bytes": 4014,
+      "source_blob_oid": "5918b68a74b24e4dab4d5fc21a1f8c7e7e0080f6",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "tests/test_qa_export.py"
+    },
+    {
+      "origin": "data_lab_git_export",
+      "path": "tests/test_web.py",
+      "sha256": "6bf553c2d900361385b2eeb7c2d2345a01ab88252db199894ad3d34ff828c078",
+      "size_bytes": 6344,
+      "source_blob_oid": "b21c8385b7febac5576c57a7823eea241c0c46b6",
+      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "source_mode": "100644",
+      "source_path": "tests/test_web.py"
+    }
+  ],
+  "history_policy": "single_sanitized_root_commit",
+  "manifest_path": "RELEASE_MANIFEST.json",
+  "manifest_self_excluded": true,
+  "release_version": "0.1.0",
+  "schema_version": "mobile-gui-vla.release-manifest.v0.1",
+  "source_closure": {
+    "data_lab_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+    "data_lab_package_tree": "bb95999539403cb77746a79da77ee0855e39a3c7",
+    "data_lab_tests_tree": "69dde9522670f3e73d479b2e6bcf86f70a08aa48",
+    "p0_reference_plan_blob": "4789bbb88ef2655d0d367f214975decfdd4e6824",
+    "platform_base_commit": "0eb713a412ff97a66f282dbb36c09130b8b8897f",
+    "platform_dependency_commit": "4f8f08482391ff9da004742a5199af8936160ee0",
+    "platform_package_tree": "1ce389a69d5ebe8cdebabbea85dfc985533e78f4"
+  }
+}
