@@ -4,7 +4,7 @@
 
 - Package version: `0.1.0`
 - Git tag: `v0.1.0`
-- Release channel: private evaluation prerelease
+- Release channel: public evaluation prerelease
 - History policy: one sanitized root commit; private task history is excluded
 
 ## Exact sources
@@ -38,7 +38,7 @@ Exact Git blobs exported from the Platform dependency commit:
 
 - `src/mobile_gui_vla_platform/**`
 
-Release-layer files authored for this private preview:
+Release-layer files authored for this evaluation preview:
 
 - `.gitignore`
 - `pyproject.toml`
@@ -79,5 +79,8 @@ status/result/return capsules, raw or derived human data, screenshots, videos,
 UI dumps, device identifiers, collector identities, host paths, runtime state,
 credentials, model artifacts, and the original repositories' Git histories.
 
-No license file is included and no license is asserted. Public publication,
-redistribution, and license selection remain separate decisions.
+The repository is publicly visible, but no license file is included and no
+license is asserted. Public visibility does not grant redistribution or reuse
+rights; license selection remains a separate decision. The annotated `v0.1.0`
+tag remains on the original sanitized root commit. The publication-transition
+commit changes release-layer documentation and manifest metadata only.

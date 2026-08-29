@@ -10,26 +10,26 @@
     {
       "origin": "release_layer",
       "path": "PRIVACY.md",
-      "sha256": "7ba5b96b7e3e624f96762f51f9949ef86582653519481f3ab9d3bf24bc94289f",
-      "size_bytes": 2347
+      "sha256": "6ca5edb3e977094244dd15d6c3f1840ded40626b397e8c09023594cd31d2efa8",
+      "size_bytes": 2410
     },
     {
       "origin": "release_layer",
       "path": "README.md",
-      "sha256": "1d8f3a299230bf8a172afaf0998b187bc1abfee89e3ba60cb294b663169ba328",
-      "size_bytes": 5418
+      "sha256": "0e0b3ae021ec122719029f15f796214782cc398e7934805425079244d6f10929",
+      "size_bytes": 5425
     },
     {
       "origin": "release_layer",
       "path": "RELEASE_NOTES.md",
-      "sha256": "6f2ababd6d973914ee63f737e2ddf28519370139f741a7877ea199f5d8bcbbe6",
-      "size_bytes": 2040
+      "sha256": "743a191d68bf97d34cd65f3c77c25ed82020e1dc5e57b0433f4020a71c5167c3",
+      "size_bytes": 2194
     },
     {
       "origin": "release_layer",
       "path": "RELEASE_PROVENANCE.md",
-      "sha256": "978d177d3c8e7670cc674c8cd581fb770577288b90d99fdd437d325049478e37",
-      "size_bytes": 2892
+      "sha256": "2161334ee3074e70eab255e3fdc8d4b282e36212fb8fed73014cd77b286f512c",
+      "size_bytes": 3133
     },
     {
       "origin": "data_lab_git_export",
@@ -50,8 +50,8 @@
     {
       "origin": "release_layer",
       "path": "pyproject.toml",
-      "sha256": "88af193fec257938efbcbdf09ee2bcfa3db4e59f1bd9e3bac85b1f8a8237625b",
-      "size_bytes": 628
+      "sha256": "4f37a786ab6eb07b1730e3936bda92f37225e5d32c2928afc7cd4f653f6634af",
+      "size_bytes": 638
     },
     {
       "origin": "data_lab_git_export",

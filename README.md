@@ -1,14 +1,13 @@
 # Mobile GUI-VLA Human Demo Collector
 
-This repository is a **private evaluation preview** of the host-side Mobile
-GUI-VLA human-demonstration collector. Version `0.1.0` is intended for a small,
-trusted group to evaluate collection usability on benign disposable Android
-tasks. It is not a public release, a training dataset, or a general GUI-agent
-framework.
+This repository is a **public evaluation preview** of the host-side Mobile
+GUI-VLA human-demonstration collector. Version `0.1.0` is intended to evaluate
+collection usability on benign disposable Android tasks. It is not a training
+dataset or a general GUI-agent framework.
 
-No license is granted or implied. Redistribution, public publication, and the
-choice of an eventual license require a separate decision by the repository
-owner.
+Public visibility does not grant an open-source license. No license is granted
+or implied, and redistribution or reuse rights are not asserted. License
+selection remains a separate decision by the repository owner.
 
 ## Included scope
 

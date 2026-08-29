@@ -1,7 +1,9 @@
 # Release Notes — v0.1.0
 
-`v0.1.0` is a private evaluation prerelease of the Mobile GUI-VLA human-demo
-collector.
+`v0.1.0` is a public evaluation prerelease of the Mobile GUI-VLA human-demo
+collector. Public repository visibility does not grant an open-source license,
+and this release contains code and controlled fixtures only, not collected
+human data.
 
 ## Highlights
 
@@ -40,7 +42,7 @@ explicitly `NOT_AVAILABLE`; this is not represented as a pass.
   of 2–3 collectors and 20–30 accepted trajectories is not complete.
 - No training manifest is included.
 - Natural model intervention, live Baseline inference, DaModel/GPU operations,
-  physical-phone completion, public release, redistribution terms,
-  collaborator access, and data sharing are not part of this release.
+  physical-phone completion, redistribution or reuse rights, collaborator
+  write access, and data sharing are not part of this release.
 - Evaluators must provide their own sanitized Android endpoint and private
   artifact storage.

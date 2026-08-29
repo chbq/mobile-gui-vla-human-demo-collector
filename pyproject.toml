@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "mobile-gui-vla-human-demo-collector"
 version = "0.1.0"
-description = "Private preview of the Mobile GUI-VLA human demonstration collector"
+description = "Public evaluation preview of the Mobile GUI-VLA human demonstration collector"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["Pillow>=10,<12"]

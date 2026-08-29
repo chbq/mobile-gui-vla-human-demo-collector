@@ -1,8 +1,9 @@
 # Privacy and Data Handling
 
-This private preview controls an Android endpoint and can capture every visible
-pixel after an action. Treat screenshots, trajectory steps, annotations, QA
-records, manifests, exports, and lock metadata as private study data.
+This public code preview controls an Android endpoint and can capture every
+visible pixel after an action. Repository visibility does not make collected
+data public: treat screenshots, trajectory steps, annotations, QA records,
+manifests, exports, and lock metadata as private study data.
 
 ## Before a session
 
