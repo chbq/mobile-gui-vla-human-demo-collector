@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import fcntl
 import json
 import os
 import re
@@ -10,12 +9,41 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import IO, Any
 
+if os.name == "nt":
+    import msvcrt
+else:
+    import fcntl
+
 
 _ALIAS = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$")
 
 
 class DeviceLockError(RuntimeError):
     pass
+
+
+def _lock_nonblocking(stream: IO[str]) -> None:
+    """Acquire the lock without blocking on Windows or POSIX."""
+    if os.name == "nt":
+        # msvcrt.locking locks bytes from the current file position and needs
+        # the requested byte to exist.
+        stream.seek(0)
+        if not stream.read(1):
+            stream.seek(0)
+            stream.write("\0")
+            stream.flush()
+        stream.seek(0)
+        msvcrt.locking(stream.fileno(), msvcrt.LK_NBLCK, 1)
+        return
+    fcntl.flock(stream.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+
+
+def _unlock(stream: IO[str]) -> None:
+    if os.name == "nt":
+        stream.seek(0)
+        msvcrt.locking(stream.fileno(), msvcrt.LK_UNLCK, 1)
+        return
+    fcntl.flock(stream.fileno(), fcntl.LOCK_UN)
 
 
 class DeviceSessionLock:
@@ -34,10 +62,13 @@ class DeviceSessionLock:
         self.lock_root.mkdir(parents=True, exist_ok=True)
         stream = self.path.open("a+", encoding="utf-8")
         try:
-            fcntl.flock(stream.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
-        except BlockingIOError as exc:
-            stream.seek(0)
-            current_owner = stream.read().strip() or "unknown owner"
+            _lock_nonblocking(stream)
+        except OSError as exc:
+            try:
+                stream.seek(0)
+                current_owner = stream.read().lstrip("\0").strip() or "unknown owner"
+            except OSError:
+                current_owner = "unknown owner"
             stream.close()
             raise DeviceLockError(
                 f"device {self.device_alias!r} already has an active session: "
@@ -62,7 +93,7 @@ class DeviceSessionLock:
     def release(self) -> None:
         if self._stream is None:
             return
-        fcntl.flock(self._stream.fileno(), fcntl.LOCK_UN)
+        _unlock(self._stream)
         self._stream.close()
         self._stream = None
 
