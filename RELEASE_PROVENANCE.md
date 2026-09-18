@@ -53,6 +53,15 @@ The Platform focused release test is a sanitized, packaging-layer test. It
 checks TypeAction/HomeAction validation and mocked ADB dispatch without
 including a real endpoint.
 
+## Public code follow-up
+
+The Windows lock adapter is taken from public collector commit
+`8bc1c6466db330c137101e35d40c385597b30580`. Its per-file manifest entry
+now identifies that public source rather than the original private export.
+All other original export entries retain their source identity. The v0.1.0
+tag and original release evidence are unchanged; this is a code follow-up,
+not a new release or Windows runtime validation claim.
+
 ## Source closure
 
 Source Git object closure:
@@ -69,7 +78,7 @@ OID for every exact export. It records release-layer files by SHA-256 and byte
 size. The manifest excludes only itself, and verification requires the set of
 manifest paths plus the manifest path to equal the tracked release tree.
 
-No source file in either package is modified for packaging. The combined
+At the original v0.1.0 export, no source file in either package was modified for packaging. The combined
 `pyproject.toml` is outside both source packages.
 
 ## Excluded material

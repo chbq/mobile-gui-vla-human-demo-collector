@@ -28,8 +28,8 @@
     {
       "origin": "release_layer",
       "path": "RELEASE_PROVENANCE.md",
-      "sha256": "2161334ee3074e70eab255e3fdc8d4b282e36212fb8fed73014cd77b286f512c",
-      "size_bytes": 3133
+      "sha256": "312fc0c4d1f500025b4abd19c7229d1708e477f73e096f61f2d0b8dbf0d951ab",
+      "size_bytes": 3607
     },
     {
       "origin": "data_lab_git_export",
@@ -114,12 +114,12 @@
       "source_path": "src/mobile_gui_vla_data_lab/images.py"
     },
     {
-      "origin": "data_lab_git_export",
+      "origin": "public_collector_git_followup",
       "path": "src/mobile_gui_vla_data_lab/locking.py",
-      "sha256": "a58b385096bdc94928df5001809be3c2140f28090622c77b4c7b56a60cad8bac",
-      "size_bytes": 2383,
-      "source_blob_oid": "afb22ee54d97d514bba4a32f1906540d79fb9217",
-      "source_commit": "0a35cb751e24785a06a5ebfc41892a8e40fc9b20",
+      "sha256": "b3e670e85d5a6a37dec16583db46296e6a820df19cb82b4fb495557773fe77bb",
+      "size_bytes": 3243,
+      "source_blob_oid": "3e63c6bed04ac936e8799844998ff8e80c011aff",
+      "source_commit": "8bc1c6466db330c137101e35d40c385597b30580",
       "source_mode": "100644",
       "source_path": "src/mobile_gui_vla_data_lab/locking.py"
     },
